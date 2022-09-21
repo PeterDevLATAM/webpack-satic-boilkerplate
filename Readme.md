@@ -1,5 +1,3 @@
-# Week-8. FE_Masters => Space Tourism
-
 ## Stack & Methods
 
 - HTML
