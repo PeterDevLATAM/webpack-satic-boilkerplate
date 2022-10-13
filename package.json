@@ -1,12 +1,12 @@
 {
-  "name": "fe_mentor-space_tourism",
+  "name": "fe_mentor-interactive_card-details",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "eslint": "eslint src/**/*.js",
     "stylelint": "npx stylelint '**/*.scss'",
-    "stylelint:fix": " npx stylelint src/**/*.scss --fix",
+    "stylelint:fix": " npx stylelint **/*.scss --fix",
     "build": "webpack --config config/webpack.prod.js",
     "start": "webpack serve --config config/webpack.dev.js"
   },
@@ -24,6 +24,7 @@
     "html-webpack-plugin": "^5.5.0",
     "image-webpack-loader": "^8.1.0",
     "mini-css-extract-plugin": "^2.6.1",
+    "postcss": "^8.4.18",
     "sass": "^1.54.9",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
